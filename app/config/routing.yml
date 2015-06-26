@@ -1,0 +1,7 @@
+monbureau_watchmydesktop:
+    resource: "@MonbureauWatchmydesktopBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

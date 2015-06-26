@@ -1,0 +1,11 @@
+parameters:
+    monbureauWatch.organisation.organisation_manager.class:       Monbureau\WatchmydesktopBundle\Service\OrganisationService
+#    monbureau_watchmydesktop.example:
+#        class: Monbureau\WatchmydesktopBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+services:
+    monbureauWatch.organisation.organisation_manager:
+        class:                                  "%monbureauWatch.organisation.organisation_manager.class%"
+        arguments:
+            - @doctrine.orm.entity_manager
+            - @knp_paginator

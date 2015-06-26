@@ -1,0 +1,9 @@
+monbureau_watchmydesktop_homepage:
+    path:     /homepage
+    defaults: { _controller: "MonbureauWatchmydesktopBundle:Default:index", -format: json}
+    methods: [GET]
+
+monbureau_watchmydesktop_organisation:
+       resource: "@MonbureauWatchmydesktopBundle/Resources/config/organisation.yml"
+
+

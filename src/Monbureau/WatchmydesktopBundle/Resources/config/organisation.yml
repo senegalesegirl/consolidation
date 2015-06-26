@@ -1,0 +1,4 @@
+monbureau.watchmydesktopbundle.organisation.getAllorgs:
+    path:     /homepage/organisations
+    defaults: { _controller: "MonbureauWatchmydesktopBundle:Organisation:getAllOrganisation", _format: json}
+    methods:  [GET]
